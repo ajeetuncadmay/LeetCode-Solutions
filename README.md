@@ -11,4 +11,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0001-two-sum) |
+## String
+|  |
+| ------- |
+| [0038-count-and-say](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0038-count-and-say) |
 <!---LeetCode Topics End-->
