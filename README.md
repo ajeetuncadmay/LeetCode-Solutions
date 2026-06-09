@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0032-longest-valid-parentheses) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0144-binary-tree-preorder-traversal) |
 ## Backtracking
 |  |
 | ------- |
@@ -179,11 +180,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0101-symmetric-tree) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0144-binary-tree-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0101-symmetric-tree) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0144-binary-tree-preorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -194,4 +197,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0101-symmetric-tree) |
+| [0144-binary-tree-preorder-traversal](https://github.com/ajeetuncadmay/LeetCode-Solutions/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
