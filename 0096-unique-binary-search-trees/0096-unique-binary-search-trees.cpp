@@ -6,9 +6,9 @@ public:
         dp[0] = 1;
         dp[1] = 1;
 
-        for (int nodes = 2; nodes <= n; nodes++) {
-            for (int root = 1; root <= nodes; root++) {
-                dp[nodes] += dp[root - 1] * dp[nodes - root];
+        for (int i = 2; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                dp[i] += dp[j - 1] * dp[i - j];
             }
         }
 
