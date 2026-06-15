@@ -1,32 +1,32 @@
 class Solution {
 public:
-    vector<TreeNode*> build(int start, int end) {
-        vector<TreeNode*> trees;
+    vector<TreeNode*> solve(int start, int end) {
+        vector<TreeNode*> res;
 
         if (start > end) {
-            trees.push_back(nullptr);
-            return trees;
+            res.push_back(nullptr);
+            return res;
         }
 
         for (int i = start; i <= end; i++) {
-            vector<TreeNode*> leftTrees = build(start, i - 1);
-            vector<TreeNode*> rightTrees = build(i + 1, end);
+            vector<TreeNode*> leftTrees = solve(start, i - 1);
+            vector<TreeNode*> rightTrees = solve(i + 1, end);
 
             for (auto left : leftTrees) {
                 for (auto right : rightTrees) {
                     TreeNode* root = new TreeNode(i);
                     root->left = left;
                     root->right = right;
-                    trees.push_back(root);
+                    res.push_back(root);
                 }
             }
         }
 
-        return trees;
+        return res;
     }
 
     vector<TreeNode*> generateTrees(int n) {
         if (n == 0) return {};
-        return build(1, n);
+        return solve(1, n);
     }
 };
